@@ -69,7 +69,7 @@ class Exchange
         Console.WriteLine("Type appropriat digit to select currency:");
         Console.Write("Your chouse: ");
         num1 = Convert.ToInt32(Console.ReadLine());
-        var num1P = changer.currencies.ElementAt(num1 - 1);
+        var num1P = changer.currencies.ElementAt(num1 - 1 );
 
         Console.WriteLine("\n Select your destination currency: \n");
         Console.Write("Your chouse: ");
