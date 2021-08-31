@@ -5,4 +5,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="CurrencyChanger\" />
+    <None Remove="ChangeCurrency\" />
+    <None Remove="AddCurrencyScenario\" />
+    <None Remove="ExchangeCurrencyScenario\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CurrencyChanger\" />
+    <Folder Include="ChangeCurrency\" />
+    <Folder Include="AddCurrencyScenario\" />
+    <Folder Include="ExchangeCurrencyScenario\" />
+  </ItemGroup>
 </Project>
